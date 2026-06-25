@@ -4,13 +4,13 @@ package Aula2;
 public class CalculadoraDiferencaIdade {
     public static void main(String[] args){
         
-    int idade1 = 10;
-    int idade2 = 5;
-    int diferenca;
+    int primeiraIdade = 10;
+    int segundaIdade = 5;
+    int diferencaIdade;
     
-    diferenca = idade1 - idade2;
+    diferencaIdade = primeiraIdade - segundaIdade;
     
-    System.out.println("A diferença das idades é de: " + diferenca + " anos");
+    System.out.println("A diferença das idades é de: " + diferencaIdade + " anos");
     
     } 
 }
