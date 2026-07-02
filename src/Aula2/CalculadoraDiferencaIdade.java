@@ -2,7 +2,7 @@ package Aula2;
 
 
 public class CalculadoraDiferencaIdade {
-    public static void main(String[] args){
+   public static void main(String[] args){
         
     int primeiraIdade = 10;
     int segundaIdade = 5;
