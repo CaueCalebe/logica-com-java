@@ -3,7 +3,7 @@ package Aula3;
 import java.util.Scanner;
 
 public class CalcularPorcentagemSalario {
-    //public static void main(String[] args){
+    public static void main(String[] args){
       double resultadoSalario;
       
       Scanner teclado = new Scanner(System.in);
