@@ -14,7 +14,7 @@ public class SistemaLogin {
             
             System.out.println("Usuário Inválido!");
         }
-        else if (nomeUsuario.equals("admin") || nomeUsuario.equals("administrador")) {
+        else if (nomeUsuario.equalsIgnoreCase("admin") || nomeUsuario.equalsIgnoreCase("administrador")) {
             
             System.out.println("Usuário Inválido!");
         }
@@ -28,3 +28,4 @@ public class SistemaLogin {
 }
 
 // .equals(args) serve para comparar um objeto com outro, somente se a variável for uma STRING.
+// .equalsIgnoreCase(args) serve para ignorar se a palavra está em CAPSLOCK, Minúscula ou Misturada.
