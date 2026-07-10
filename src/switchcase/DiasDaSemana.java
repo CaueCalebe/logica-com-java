@@ -10,33 +10,28 @@ public class DiasDaSemana {
         System.out.println("Digite um número de (1) à (7): ");
         int numeroDia = teclado.nextInt();
         
-        if (numeroDia == 1) {
-            
-            System.out.println("Dia 1 - Segunda-feira"); 
-        }
-        else if (numeroDia == 2) {
-            
-            System.out.println("Dia 2 - Terça-feira");
-        }
-        else if (numeroDia == 3) {
-            
-            System.out.println("Dia 3 - Quarta-feira");
-        }
-        else if (numeroDia == 4) {
-            
-            System.out.println("Dia 4 - Quinta-feira");
-        }
-        else if (numeroDia == 5) {
-            
-            System.out.println("Dia 5 - Sexta-feira");
-        }
-        else if (numeroDia == 6) {
-            
-            System.out.println("Dia 6 - Sábado");
-        }
-        else {
-            
-            System.out.println("Dia 7 - Domingo");
+        switch (numeroDia) {
+            case 1:
+                System.out.println("Dia 1 - Segunda-feira");
+                break;
+            case 2:
+                System.out.println("Dia 2 - Terça-feira");
+                break;
+            case 3:
+                System.out.println("Dia 3 - Quarta-feira");
+                break;
+            case 4:
+                System.out.println("Dia 4 - Quinta-feira");
+                break;
+            case 5:
+                System.out.println("Dia 5 - Sexta-feira");
+                break;
+            case 6:
+                System.out.println("Dia 6 - Sábado");
+                break;
+            default:
+                System.out.println("Dia 7 - Domingo");
+                break;
         }
         
         System.out.println("Fim do Programa");
