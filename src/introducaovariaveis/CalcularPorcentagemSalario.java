@@ -1,4 +1,4 @@
-package Aula3;
+package introducaovariaveis;
 
 import java.util.Scanner;
 

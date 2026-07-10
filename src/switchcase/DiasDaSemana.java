@@ -1,4 +1,4 @@
-package Aula11;
+package switchcase;
 
 import java.util.Scanner;
 
@@ -39,6 +39,6 @@ public class DiasDaSemana {
             System.out.println("Dia 7 - Domingo");
         }
         
-        System.out.println("Fim do Programa!!");
+        System.out.println("Fim do Programa");
     }
 }

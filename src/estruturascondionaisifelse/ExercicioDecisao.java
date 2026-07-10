@@ -1,4 +1,4 @@
-package Aula4;
+package estruturascondionaisifelse;
 
 import java.util.Scanner;
 

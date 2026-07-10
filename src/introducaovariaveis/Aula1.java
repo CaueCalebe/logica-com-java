@@ -1,4 +1,4 @@
-package Aula1;
+package introducaovariaveis;
 
 // A "//" serve para adicionar um comentário curto
 
