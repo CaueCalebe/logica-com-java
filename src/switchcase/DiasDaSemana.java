@@ -29,9 +29,11 @@ public class DiasDaSemana {
             case 6:
                 System.out.println("Dia 6 - Sábado");
                 break;
-            default:
+            case 7:
                 System.out.println("Dia 7 - Domingo");
                 break;
+            default:
+                System.out.println("Dia Inválido!");
         }
         
         System.out.println("Fim do Programa");
