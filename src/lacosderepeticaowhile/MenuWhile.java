@@ -1,4 +1,4 @@
-package lacosderepeticao;
+package lacosderepeticaowhile;
 
 import java.util.Scanner;
 

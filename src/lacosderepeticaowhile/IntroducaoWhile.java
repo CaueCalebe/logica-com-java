@@ -1,4 +1,4 @@
-package lacosderepeticao;
+package lacosderepeticaowhile;
 
 public class IntroducaoWhile {
     public static void main(String[] args) {
