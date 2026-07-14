@@ -10,6 +10,8 @@ public class IntroducaoArrays {
         notas[2] = 3;
         notas[3] = 6;
         
+        System.out.println("Tamanho do Array: " + notas.length);
+        
         for (int i = 0; i < 4; i++) {
             
             System.out.println(notas[i]);
